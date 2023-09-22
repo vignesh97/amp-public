@@ -5,6 +5,7 @@ frontend:
     build:
       commands:
         - echo "test preview"
+        - echo "test preview" >> index-preview.html
   artifacts:
     # IMPORTANT - Please verify your build output directory
     baseDirectory: /
