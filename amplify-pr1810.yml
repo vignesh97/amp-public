@@ -5,6 +5,7 @@ frontend:
     build:
       commands:
         - echo "test1 from pr1810 file"
+        - echo "THIS content is should not created as file" >> index-no-preview.html
   artifacts:
     # IMPORTANT - Please verify your build output directory
     baseDirectory: /
